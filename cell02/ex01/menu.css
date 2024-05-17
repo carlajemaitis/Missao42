@@ -1,0 +1,35 @@
+/*estilo da div drop*/
+.dropdown {
+    position: relative;
+    /* posicionamento dos itens da lista, como o tamanho do botão; */
+    display: inline-block;
+    /* para limitar o espaço do botão onde o hover tem efeito */
+}
+
+/* Estilo para o botão do menu */
+.menu {
+    height: 50px;
+    width: 100px;
+    cursor: pointer; 
+    /* Muda o tipo do cursor */
+}
+
+/* Estilo da lista suspensa */
+.dropdowncontent  {
+    display: none;
+    /* para não aparecer a lista enquanto o hover não ativá-la */
+    background-color: rgb(46, 45, 42);
+}
+
+
+.dropdowncontent a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Faz o efeito de aparecer o menu quando passa o mouse */
+.dropdown:hover  .dropdowncontent{
+    display: block;
+}
+

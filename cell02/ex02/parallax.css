@@ -1,0 +1,77 @@
+.primeira-parte{
+    background-image: url("https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/407570061_7070543193043550_2607825118244777097_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEnUs27PZEurnyL_Nr_74HcR_7mFGTOq8NH_uYUZM6rwyprV8ZlPMSQGyQu6PTuNjlDwy_LGe89mm8G3V7PQnp9&_nc_ohc=0i98njEOuaYQ7kNvgF90G0q&_nc_ht=scontent-gru2-2.xx&oh=00_AYD8UmcmPgKzxC66OtwYQs4BETWPl5rCSOKlcJ48k8-1cg&oe=664C12C4");
+    background-attachment: fixed; 
+    /* para fixar a imagem */
+    /* background-size: cover; */
+    /* para completar a tela  */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    padding: 0; 
+}
+
+.texto01 {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.segunda-parte {
+    background-color: black;
+    background-attachment: scroll;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.texto02{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+
+.terceira-parte{
+    background-image: url("https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/407804463_7070543086376894_1323886587087269020_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEujK9fLyb_1fOteEgXkIP76RdS2ePlgV3pF1LZ4-WBXXmJOzQjn3mn6xQULcu71t1z2HDvYFV_OttrUCxMJKxp&_nc_ohc=b2EUP6RLEXkQ7kNvgH-JFqP&_nc_ht=scontent-gru2-1.xx&oh=00_AYC0OHt7bNeE10k-YxfjJSrGbcY110MSHb9_FKDxu-jH5A&oe=664C3B60 ");
+    background-attachment: fixed;
+    /* background-size: cover; */
+    /* esse size cover funciona para fotos horizontais */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    padding: 0; 
+    position: relative;
+}
+
+.texto03{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+body {
+    background-color: rgba(58, 58, 58, 0.904);
+}
+
+
